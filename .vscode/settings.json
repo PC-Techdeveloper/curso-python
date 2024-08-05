@@ -31,8 +31,8 @@
   "workbench.editor.decorations.colors": true,
   "workbench.editor.decorations.badges": true,
   "workbench.iconTheme": "material-icon-theme",
-  "explorer.decorations.colors": false,
-  "explorer.decorations.badges": false,
+  "explorer.decorations.colors": true,
+  "explorer.decorations.badges": true,
   "git.ignoreMissingGitWarning": true,
   "workbench.editor.pinnedTabSizing": "shrink",
   "workbench.startupEditor": "none",
@@ -129,4 +129,5 @@
   "editor.folding": false,
   "editor.parameterHints.enabled": false,
   "editor.renderLineHighlight": "none",
+  "editor.mouseWheelScrollSensitivity": 2.8,
 }
