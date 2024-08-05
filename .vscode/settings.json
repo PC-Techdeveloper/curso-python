@@ -1,0 +1,132 @@
+{
+  "breadcrumbs.enabled": true,
+  "editor.renderWhitespace": "none",
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "liveServer.settings.donotShowInfoMsg": true,
+  "editor.fontSize": 15.5,
+  "diffEditor.ignoreTrimWhitespace": true,
+  "liveServer.settings.donotVerifyTags": true,
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact",
+    "ejs": "html"
+  },
+  "terminal.integrated.env.windows": {},
+  "emmet.excludeLanguages": [
+    "markdown"
+  ],
+  "[json]": {
+    "editor.quickSuggestions": {
+      "strings": true
+    },
+    "editor.suggest.insertMode": "replace",
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.linkedEditing": true,
+  "workbench.editor.decorations.colors": true,
+  "workbench.editor.decorations.badges": true,
+  "workbench.iconTheme": "material-icon-theme",
+  "explorer.decorations.colors": false,
+  "explorer.decorations.badges": false,
+  "git.ignoreMissingGitWarning": true,
+  "workbench.editor.pinnedTabSizing": "shrink",
+  "workbench.startupEditor": "none",
+  "editor.stickyTabStops": true,
+  "editor.tabSize": 2,
+  "git.enableSmartCommit": true,
+  "[dart]": {
+    "editor.formatOnSave": false,
+    "editor.formatOnType": true,
+    "editor.rulers": [
+      80
+    ],
+    "editor.selectionHighlight": false,
+    "editor.suggest.snippetsPreventQuickSuggestions": false,
+    "editor.suggestSelection": "first",
+    "editor.tabCompletion": "onlySnippets",
+    "editor.wordBasedSuggestions": "off",
+  },
+  "editor.unicodeHighlight.allowedCharacters": {
+    "ا": true,
+    "ه": true
+  },
+  "files.autoSave": "afterDelay",
+  "explorer.compactFolders": true,
+  "workbench.colorTheme": "One Dark Pro Darker",
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "editor.scrollbar.verticalScrollbarSize": 19,
+  "editor.scrollbar.horizontalScrollbarSize": 19,
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.detectIndentation": false,
+  "explorer.copyRelativePathSeparator": "/",
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "git.openRepositoryInParentFolders": "never",
+  "editor.unicodeHighlight.allowedLocales": {
+    "es": true
+  },
+  "editor.guides.bracketPairs": "active",
+  "window.zoomLevel": 1,
+  "editor.fontFamily": "CaskaydiaCove Nerd Font",
+  "editor.smoothScrolling": true,
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.cursorStyle": "line",
+  "oneDarkPro.bold": true,
+  "oneDarkPro.italic": true,
+  "oneDarkPro.vivid": true,
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "terminal.integrated.fontSize": 16,
+  "terminal.integrated.fontFamily": "CaskaydiaCove Nerd Font",
+  "prettier.requireConfig": false,
+  "prettier.printWidth": 80,
+  "prettier.tabWidth": 2,
+  "prettier.useTabs": false,
+  "prettier.semi": false,
+  "prettier.singleQuote": true,
+  "prettier.trailingComma": "es5",
+  "prettier.bracketSpacing": true,
+  "prettier.arrowParens": "avoid",
+  "prettier.proseWrap": "preserve",
+  "prettier.endOfLine": "lf",
+  "editor.wordWrap": "on",
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "editor.multiCursorModifier": "ctrlCmd",
+  "editor.suggestSelection": "first",
+  "editor.hover.sticky": true,
+  "terminal.integrated.cursorBlinking": true,
+  "terminal.integrated.smoothScrolling": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "workbench.editor.enablePreview": true,
+  "explorer.confirmPasteNative": false,
+  "terminal.integrated.tabs.enableAnimation": true,
+  "explorer.fileNesting.enabled": true,
+  "workbench.list.smoothScrolling": true,
+  "editor.fontLigatures": true,
+  "scm.experimental.showHistoryGraph": true,
+  "editor.minimap.enabled": true,
+  "editor.minimap.maxColumn": 65,
+  "workbench.sideBar.location": "left",
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.black-formatter"
+  },
+  "editor.lightbulb.enabled": "onCode",
+  "editor.stickyScroll.enabled": true,
+  "workbench.tree.expandMode": "singleClick",
+  "workbench.editor.closeOnFileDelete": true,
+  "editor.selectionHighlight": true,
+  "editor.folding": false,
+  "editor.parameterHints.enabled": false,
+  "editor.renderLineHighlight": "none",
+}
