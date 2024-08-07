@@ -11,7 +11,7 @@ La forma más sencilla de importar un módulo es import <module>, donde <module>
 """
 
 # Importando el módulo completo -> fichero: stats.py
-import stats
+import extramath.stats as stats
 
 print(stats.mean(4, 7, 2.11, 9))
 print(stats.std(6, 3, 9, 5))
@@ -36,7 +36,7 @@ Importar partes de un módulo:
 Solo importar una parte de un módulo es posible utilizando la sintaxis 'from <module> import <name>'. Esto es útil cuando queremos utilizar solo una parte de un módulo.
 """
 
-from stats import mean
+from extramath.stats import mean
 
 print(mean(4, 7, 31, 9))
 
@@ -46,7 +46,7 @@ Para importar varios objetos (funciones, clases, constantes, etc.) de un módulo
 from stats import * -> Importa todos los componentes del módulo.
 """
 
-from stats import mean, std
+from extramath.stats import mean, std
 
 print(mean(1, 2, 3))
 print(std(4, 5, 6))
@@ -56,10 +56,32 @@ Importar usando un alias:
 Python ofrece la posibilidad a través de la sentencia 'as' de importar un módulo con un alias diferente al que se le asigna al nombre del módulo.
 """
 
-from stats import mean as avg
+from extramath.stats import mean as avg
 
 print(avg(6, 5, 4))
 
 """
-Paquetes:🟨
+Paquetes: Un paquete es una carpeta que contiene ficheros .py. Además permite tener una jerarquía con más de un nivel de sub-carpetas anidadas.
 """
+
+# Importamdo desde un paquete
+from extramath import frac, stats
+
+print(frac.gcd(12, 18))
+
+print(stats.mean(4, 7, 2.11, 9))
+
+"""
+Programa principal: El fichero __main__.py es el que se ejecuta cuando se ejecuta el programa en la línea de comandos.
+
+if__name__=="__main__":
+
+La variable __name__ toma los siguientes valores:
+
+* El nombre del módulo o paquete al importar el fichero.
+* El valor __main__ cuando se ejecuta el fichero como un módulo.
+"""
+
+if __name__ == "__main__":
+    # Punto de entrada del programa
+    print("Hola Python!")

@@ -28,5 +28,11 @@ from <module> import <name> as <alias>
 
 ```python
 
+# Importamdo desde un paquete
+from <package> import name1, name2
+
+print(name1.gcd(12, 18))
+
+print(name2.mean(4, 7, 2.11, 9))
 
 ```
