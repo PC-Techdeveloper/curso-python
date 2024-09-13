@@ -38,7 +38,7 @@ Añadiendo métodos a clases: Un método es una función que forma parte de una 
 
 
 class Droid:
-    # Método: Acciones
+    # Método: Acciones que puede tener un objeto
     def switchOn(self):
         print("El droide está encendido")
 
@@ -46,7 +46,7 @@ class Droid:
         print("El droide está apagado")
 
 
-# Creando instancias de clases: Objeto
+# Creando una instancia a partir de una clases: Objeto
 droide1 = Droid()
 
 droide1.switchOn()

@@ -1,7 +1,5 @@
 # Sentencia if
-
 temperature = 25
-
 
 if temperature >= 30:
     print("El número es mayor o igual a 30")
@@ -9,7 +7,6 @@ else:
     print("El número es menor a 30")
 
 # Sentencia if-else
-
 temperature = 20
 if temperature > 35:
     print("Aviso por alta temperatura ⚠")
@@ -38,8 +35,8 @@ print(f"El riesgo de incendio es {fire_risk}")
 """
 Operadores de comparación: ==, !=, >, <, >=, <= 🟨
 """
-# Igualdad
 
+# Igualdad
 print("*** Operadores de comparación ***")
 print(5 == 5)
 print(5 == 6)

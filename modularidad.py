@@ -488,7 +488,7 @@ Funciones generadoras: Se escriben como funciones ordinarias con el matiz de inc
 """
 
 
-def evens(lim: int) -> int:
+def evens(lim: int):
     for i in range(0, lim + 1, 2):
         yield i
 

@@ -1,5 +1,5 @@
 {
-  "breadcrumbs.enabled": true,
+  "breadcrumbs.enabled": false,
   "editor.renderWhitespace": "none",
   "[html]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
@@ -9,7 +9,7 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "liveServer.settings.donotShowInfoMsg": true,
-  "editor.fontSize": 15.5,
+  "editor.fontSize": 15.9,
   "diffEditor.ignoreTrimWhitespace": true,
   "liveServer.settings.donotVerifyTags": true,
   "emmet.includeLanguages": {
@@ -22,7 +22,9 @@
   ],
   "[json]": {
     "editor.quickSuggestions": {
-      "strings": true
+      "strings": false,
+      "comments": false,
+      "other": false
     },
     "editor.suggest.insertMode": "replace",
     "editor.defaultFormatter": "esbenp.prettier-vscode"
@@ -30,7 +32,7 @@
   "editor.linkedEditing": true,
   "workbench.editor.decorations.colors": true,
   "workbench.editor.decorations.badges": true,
-  "workbench.iconTheme": "material-icon-theme",
+  "workbench.iconTheme": "symbols",
   "explorer.decorations.colors": true,
   "explorer.decorations.badges": true,
   "git.ignoreMissingGitWarning": true,
@@ -57,12 +59,13 @@
   },
   "files.autoSave": "afterDelay",
   "explorer.compactFolders": true,
-  "workbench.colorTheme": "One Dark Pro Darker",
   "[jsonc]": {
     "editor.defaultFormatter": "vscode.json-language-features"
   },
-  "editor.scrollbar.verticalScrollbarSize": 19,
+  "editor.scrollbar.verticalScrollbarSize": 25,
   "editor.scrollbar.horizontalScrollbarSize": 19,
+  "editor.scrollbar.vertical": "visible",
+  "editor.scrollbar.horizontal": "hidden",
   "[css]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
@@ -76,14 +79,11 @@
     "es": true
   },
   "editor.guides.bracketPairs": "active",
-  "window.zoomLevel": 1,
-  "editor.fontFamily": "CaskaydiaCove Nerd Font",
+  "window.zoomLevel": 0.75,
+  "editor.fontFamily": "Cascadia Code",
   "editor.smoothScrolling": true,
   "editor.cursorSmoothCaretAnimation": "on",
   "editor.cursorStyle": "line",
-  "oneDarkPro.bold": true,
-  "oneDarkPro.italic": true,
-  "oneDarkPro.vivid": true,
   "editor.formatOnPaste": true,
   "editor.formatOnSave": true,
   "terminal.integrated.fontSize": 16,
@@ -92,7 +92,7 @@
   "prettier.printWidth": 80,
   "prettier.tabWidth": 2,
   "prettier.useTabs": false,
-  "prettier.semi": false,
+  "prettier.semi": true,
   "prettier.singleQuote": true,
   "prettier.trailingComma": "es5",
   "prettier.bracketSpacing": true,
@@ -106,18 +106,18 @@
   "editor.suggestSelection": "first",
   "editor.hover.sticky": true,
   "terminal.integrated.cursorBlinking": true,
+  "editor.cursorBlinking": "solid",
   "terminal.integrated.smoothScrolling": true,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "workbench.editor.enablePreview": true,
+  "workbench.editor.enablePreview": false,
   "explorer.confirmPasteNative": false,
   "terminal.integrated.tabs.enableAnimation": true,
   "explorer.fileNesting.enabled": true,
   "workbench.list.smoothScrolling": true,
   "editor.fontLigatures": true,
-  "scm.experimental.showHistoryGraph": true,
-  "editor.minimap.enabled": true,
-  "editor.minimap.maxColumn": 65,
-  "workbench.sideBar.location": "left",
+  "editor.minimap.enabled": false,
+  "editor.minimap.maxColumn": 40,
+  "workbench.sideBar.location": "right",
   "[python]": {
     "editor.defaultFormatter": "ms-python.black-formatter"
   },
@@ -126,8 +126,57 @@
   "workbench.tree.expandMode": "singleClick",
   "workbench.editor.closeOnFileDelete": true,
   "editor.selectionHighlight": true,
-  "editor.folding": false,
+  "editor.folding": true,
   "editor.parameterHints.enabled": false,
   "editor.renderLineHighlight": "all",
   "editor.mouseWheelScrollSensitivity": 1,
+  "symbols.hidesExplorerArrows": false,
+  "workbench.preferredDarkColorTheme": "One Dark Pro Darker",
+  "workbench.preferredHighContrastColorTheme": "One Dark Pro Darker",
+  "workbench.preferredHighContrastLightColorTheme": "One Dark Pro Darker",
+  "workbench.preferredLightColorTheme": "One Dark Pro Darker",
+  "oneDarkPro.bold": true,
+  "oneDarkPro.italic": true,
+  "oneDarkPro.vivid": true,
+  /*Supermaven*/
+  "supermaven.enable": {
+    "supermaven.autoComplete.enabled": false,
+    "supermaven.codeAnalysis.maxFileSizeMB": 0.25,
+    "supermaven.suggestions.frequency": "low",
+    "*": true,
+    "supermaven.completions.maxItems": 10,
+    "supermaven.suggestions.maxResults": 5,
+    "supermaven.validateOnSave": false,
+    "supermaven.validateOnType": false,
+    "supermaven.analysis.dependencyScan": false,
+    "supermaven.visualization.diagram": false,
+    "supermaven.concurrency.maxProcesses": 2,
+    "supermaven.concurrency.maxThreads": 2,
+    "supermaven.concurrency.maxConnections": 2,
+    "supermaven.concurrency.maxSockets": 2,
+    "supermaven.analysis.maxFileSizeMB": 0.25,
+    "supermaven.analysis.maxFileSize": 25,
+    "supermaven.analysis.maxRecursion": 10,
+    "supermaven.allowGitignore": true,
+  },
+  "terminal.integrated.scrollback": 1000,
+  "terminal.integrated.gpuAcceleration": "off",
+  "terminal.integrated.fastScrollSensitivity": 10,
+  "terminal.integrated.cursorStyle": "block",
+  "editor.codeLens": false,
+  "editor.colorDecorators": true,
+  "security.workspace.trust.untrustedFiles": "open",
+  "tailwindCSS.experimental.memoryUsage": "low",
+  "editor.renderControlCharacters": true,
+  "editor.scrollBeyondLastColumn": 5,
+  "editor.scrollBeyondLastLine": true,
+  //otros
+  "update.enableWindowsBackgroundUpdate": false,
+  "search.followSymlinks": false,
+  "explorer.autoReveal": false,
+  "workbench.colorTheme": "One Dark Pro Darker",
+  "redhat.telemetry.enabled": false,
+  "[java]": {
+    "editor.defaultFormatter": "redhat.java"
+  },
 }
