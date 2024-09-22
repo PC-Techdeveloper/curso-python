@@ -3,7 +3,7 @@
   "editor.cursorSmoothCaretAnimation": "on",
   "editor.fontFamily": "Cascadia Code",
   "editor.guides.bracketPairs": "active",
-  "editor.lineNumbers": "off",
+  "editor.lineNumbers": "on",
   "editor.renderWhitespace": "boundary",
   "window.autoDetectColorScheme": true,
   "workbench.colorTheme": "One Dark Pro",
@@ -164,7 +164,7 @@
   "prettier.singleQuote": true,
   // ========== File Nesting ==========
   "explorer.fileNesting.enabled": true,
-  "editor.fontSize": 14,
+  "editor.fontSize": 13,
   "files.autoSave": "afterDelay",
   "editor.minimap.enabled": false,
   "window.zoomLevel": 2,
@@ -190,11 +190,11 @@
     "editor.suggest.snippetsPreventQuickSuggestions": false,
     "editor.defaultFormatter": "redhat.java"
   },
-  "redhat.telemetry.enabled": true,
-  "editor.cursorBlinking": "expand",
+  "redhat.telemetry.enabled": false,
+  "editor.cursorBlinking": "blink",
   "editor.smoothScrolling": true,
-  "editor.fastScrollSensitivity": 2,
-  "editor.cursorStyle": "line",
+  "editor.fastScrollSensitivity": 10,
+  "editor.cursorStyle": "block",
   "editor.find.cursorMoveOnType": false,
   "emmet.syntaxProfiles": {
     "html": {
@@ -209,7 +209,6 @@
   "editor.snippetSuggestions": "top",
   "window.nativeFullScreen": true,
   "editor.guides.indentation": false,
-  "editor.lineHeight": 20,
   "workbench.preferredHighContrastLightColorTheme": "One Dark Pro",
   "workbench.preferredHighContrastColorTheme": "One Dark Pro",
   "workbench.activityBar.location": "bottom",
@@ -229,25 +228,12 @@
   "window.density.editorTabHeight": "compact",
   "window.systemColorTheme": "dark",
   "window.menuBarVisibility": "compact",
-  "editor.cursorWidth": 3,
   "editor.formatOnType": true,
   "editor.inlayHints.enabled": "off",
-  "typescript.tsserver.experimental.enableProjectDiagnostics": false,
-  "css.validate": false,
-  "json.validate": false,
-  "html.validate.scripts": false,
   "typescript.tsserver.maxTsServerMemory": 4096,
   "typescript.tsserver.log": "off",
   "typescript.suggestionActions.enabled": false,
   "javascript.suggestionActions.enabled": false,
-  "eslint.run": "onSave",
-  "eslint.autoFixOnSave": true,
   "files.maxMemoryForLargeFilesMB": 4096,
-  "files.exclude": {
-    "**/.git": true,
-    "**/.DS_Store": true,
-    "**/node_modules": true,
-    "**/bower_components": true
-  },
   "workbench.tips.enabled": false
 }
