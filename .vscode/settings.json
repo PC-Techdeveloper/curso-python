@@ -13,7 +13,7 @@
   "workbench.preferredDarkColorTheme": "One Dark Pro",
   "workbench.preferredLightColorTheme": "One Dark Pro",
   "workbench.productIconTheme": "fluent-icons",
-  "workbench.sideBar.location": "right",
+  "workbench.sideBar.location": "left",
   "workbench.startupEditor": "newUntitledFile",
   "workbench.tree.expandMode": "singleClick",
   "workbench.tree.indent": 10,
@@ -194,7 +194,7 @@
   "editor.cursorBlinking": "blink",
   "editor.smoothScrolling": true,
   "editor.fastScrollSensitivity": 10,
-  "editor.cursorStyle": "block",
+  "editor.cursorStyle": "line",
   "editor.find.cursorMoveOnType": false,
   "emmet.syntaxProfiles": {
     "html": {
@@ -214,8 +214,8 @@
   "workbench.activityBar.location": "bottom",
   "workbench.iconTheme": "symbols",
   "workbench.tree.renderIndentGuides": "always",
-  "breadcrumbs.enabled": false,
-  "breadcrumbs.icons": false,
+  "breadcrumbs.enabled": true,
+  "breadcrumbs.icons": true,
   "breadcrumbs.showArrays": false,
   "breadcrumbs.showBooleans": false,
   "breadcrumbs.showClasses": false,
