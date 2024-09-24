@@ -81,7 +81,6 @@
   },
   "window.nativeTabs": true, // this is great, macOS only
   "window.title": "${rootName}", // this make tabs more readable
-  "window.titleBarStyle": "native",
   "extensions.autoUpdate": "onlyEnabledExtensions",
   // ========== Extension configs ========== 
   "emmet.showSuggestionsAsSnippets": true,
@@ -224,7 +223,6 @@
   "workbench.editor.empty.hint": "hidden",
   "workbench.editor.enablePreview": false,
   "workbench.editor.labelFormat": "short",
-  "screencastMode.fontSize": 20,
   "window.density.editorTabHeight": "compact",
   "window.systemColorTheme": "dark",
   "window.menuBarVisibility": "compact",
@@ -235,5 +233,16 @@
   "typescript.suggestionActions.enabled": false,
   "javascript.suggestionActions.enabled": false,
   "files.maxMemoryForLargeFilesMB": 4096,
-  "workbench.tips.enabled": false
+  "workbench.tips.enabled": false,
+  "window.commandCenter": false,
+  //APC CUSTOMIZE UI
+  "window.titleBarStyle": "native",
+  "apc.electron": {
+    "titleBarStyle": "hidden"
+  },
+  "apc.font.family": "Consolas",
+  "apc.menubar.compact": true,
+  "apc.statusBar": {
+    "position": "editor-bottom"
+  }
 }
