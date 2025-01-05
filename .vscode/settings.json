@@ -4,19 +4,19 @@
   "editor.fontFamily": "Cascadia Code",
   "editor.guides.bracketPairs": "active",
   "editor.lineNumbers": "on",
-  "editor.renderWhitespace": "boundary",
+  "editor.renderWhitespace": "none",
   "window.autoDetectColorScheme": false,
-  "workbench.colorTheme": "One Dark Pro",
+  "workbench.colorTheme": "One Dark Pro Darker",
   "workbench.editor.tabActionLocation": "left",
   "workbench.fontAliasing": "antialiased",
   "workbench.list.smoothScrolling": true,
-  "workbench.preferredDarkColorTheme": "One Dark Pro",
-  "workbench.preferredLightColorTheme": "One Dark Pro",
+  "workbench.preferredDarkColorTheme": "One Dark Pro Darker",
+  "workbench.preferredLightColorTheme": "One Dark Pro Darker",
   "workbench.productIconTheme": "fluent-icons",
   "workbench.sideBar.location": "right",
   "workbench.startupEditor": "newUntitledFile",
   "workbench.tree.expandMode": "singleClick",
-  "workbench.tree.indent": 10,
+  "workbench.tree.indent": 4,
   // ========== Editor ========== 
   "debug.onTaskErrors": "debugAnyway",
   "diffEditor.ignoreTrimWhitespace": false,
@@ -51,7 +51,7 @@
   "terminal.integrated.cursorStyle": "block",
   "terminal.integrated.persistentSessionReviveProcess": "never",
   "terminal.integrated.tabs.enabled": true,
-  "terminal.integrated.fontSize": 12,
+  "terminal.integrated.fontSize": 14,
   "workbench.editor.closeOnFileDelete": true,
   "workbench.editor.highlightModifiedTabs": true,
   "workbench.editor.limit.enabled": true,
@@ -165,12 +165,12 @@
   "prettier.singleQuote": true,
   // ========== File Nesting ==========
   "explorer.fileNesting.enabled": true,
-  "editor.fontSize": 12.4,
+  "editor.fontSize": 12,
   "files.autoSave": "afterDelay",
-  "editor.minimap.enabled": false,
-  "editor.minimap.maxColumn": 55,
-  "window.zoomLevel": 2,
-  "terminal.integrated.fontFamily": "CaskaydiaCove Nerd Font",
+  "editor.minimap.enabled": true,
+  "editor.minimap.maxColumn": 100,
+  "window.zoomLevel": 2.5,
+  "terminal.integrated.fontFamily": "JetBrains Mono",
   "editor.wordWrap": "on",
   "editor.fontLigatures": true,
   "editor.formatOnPaste": true,
@@ -193,7 +193,7 @@
     "editor.defaultFormatter": "redhat.java"
   },
   "redhat.telemetry.enabled": false,
-  "editor.cursorBlinking": "expand",
+  "editor.cursorBlinking": "blink",
   "editor.smoothScrolling": true,
   "editor.fastScrollSensitivity": 10,
   "editor.cursorStyle": "line",
@@ -207,11 +207,11 @@
   "editor.snippetSuggestions": "top",
   "window.nativeFullScreen": true,
   "editor.guides.indentation": false,
-  "workbench.preferredHighContrastLightColorTheme": "One Dark Pro",
-  "workbench.preferredHighContrastColorTheme": "One Dark Pro",
+  "workbench.preferredHighContrastLightColorTheme": "One Dark Pro Darker",
+  "workbench.preferredHighContrastColorTheme": "One Dark Pro Darker",
   "workbench.activityBar.location": "default",
   "workbench.iconTheme": "symbols",
-  "workbench.tree.renderIndentGuides": "always",
+  "workbench.tree.renderIndentGuides": "none",
   "breadcrumbs.enabled": true,
   "breadcrumbs.icons": true,
   "breadcrumbs.showArrays": false,
@@ -233,7 +233,7 @@
   "javascript.suggestionActions.enabled": false,
   "files.maxMemoryForLargeFilesMB": 4096,
   "workbench.tips.enabled": false,
-  "window.commandCenter": false,
+  "window.commandCenter": true,
   //APC CUSTOMIZE UI
   "editor.codeLens": false,
   "zenMode.centerLayout": false,
@@ -250,7 +250,7 @@
   "workbench.statusBar.visible": true,
   "terminal.integrated.gpuAcceleration": "on",
   "editor.autoIndent": "full",
-  "editor.folding": false,
+  "editor.folding": true,
   "window.enableHardwareAcceleration": false,
   "editor.suggestOnTriggerCharacters": true,
   "editor.quickSuggestions": {
@@ -259,7 +259,7 @@
   "CodeGPT.apiKey": "CodeGPT Plus Beta",
   "editor.parameterHints.enabled": false,
   "editor.glyphMargin": true,
-  "editor.showFoldingControls": "never",
+  "editor.showFoldingControls": "mouseover",
   "editor.matchBrackets": "never",
   "animations.Active": "Indent",
   "template-string-converter.enabled": true,
@@ -268,21 +268,28 @@
   "vscode_custom_css.imports": [
     "file:///c:/Users/jefer/.vscode/extensions/brandonkirbyson.vscode-animations-2.0.4/dist/updateHandler.js"
   ],
-  "oneDarkPro.bold": true,
+  "oneDarkPro.bold": false,
   "oneDarkPro.vivid": true,
   "oneDarkPro.italic": true,
   "workbench.editor.wrapTabs": false,
   "editor.semanticTokenColorCustomizations": {
-    "[One Dark Pro]": {
+    "[One Dark Pro Darker]": {
       "enabled": true,
       "rules": {
         "*.declaration": {
-          "bold": true
+          "bold": true,
         }
       }
     }
   },
   "terminal.integrated.defaultProfile.windows": "Git Bash",
   "apc.font.family": "Cascadia Code",
-  "editor.lineHeight": 20
+  "git.blame.editorDecoration.enabled": true,
+  "[php]": {
+    "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
+  },
+  "rapidapi.terminalLink.enabled": false,
+  "chat.commandCenter.enabled": false,
+  "editor.scrollbar.vertical": "hidden",
+  "editor.lineHeight": 24
 }
